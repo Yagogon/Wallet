@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073589BC1B221A3A00A37878 /* AGTSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073589BA1B221A3A00A37878 /* AGTSimpleViewController.m */; };
+		073589BD1B221A3A00A37878 /* AGTSimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073589BA1B221A3A00A37878 /* AGTSimpleViewController.m */; };
+		073589BE1B221A3A00A37878 /* AGTSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073589BB1B221A3A00A37878 /* AGTSimpleViewController.xib */; };
+		073589BF1B221A3A00A37878 /* AGTSimpleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073589BB1B221A3A00A37878 /* AGTSimpleViewController.xib */; };
+		073589C31B221A7900A37878 /* AGTControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 073589C21B221A7900A37878 /* AGTControllerTests.m */; };
+		073589C61B22200C00A37878 /* AGTWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073589C51B22200C00A37878 /* AGTWalletTableViewController.m */; };
+		073589C71B22200C00A37878 /* AGTWalletTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 073589C51B22200C00A37878 /* AGTWalletTableViewController.m */; };
+		077284141B1CF398005F0F0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 077284131B1CF398005F0F0E /* main.m */; };
+		077284171B1CF398005F0F0E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 077284161B1CF398005F0F0E /* AppDelegate.m */; };
+		0772841A1B1CF398005F0F0E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 077284191B1CF398005F0F0E /* ViewController.m */; };
+		0772841D1B1CF398005F0F0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0772841B1B1CF398005F0F0E /* Main.storyboard */; };
+		0772841F1B1CF398005F0F0E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0772841E1B1CF398005F0F0E /* Images.xcassets */; };
+		077284221B1CF398005F0F0E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 077284201B1CF398005F0F0E /* LaunchScreen.xib */; };
+		0772844B1B1D0699005F0F0E /* AGTMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772844A1B1D0699005F0F0E /* AGTMoney.m */; };
+		0772844C1B1D06DB005F0F0E /* AGTMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772844A1B1D0699005F0F0E /* AGTMoney.m */; };
+		0772844F1B1D096B005F0F0E /* NSObject+GNUStep.m in Sources */ = {isa = PBXBuildFile; fileRef = 0772844E1B1D096B005F0F0E /* NSObject+GNUStep.m */; };
+		077284521B1D0B1E005F0F0E /* AGTMoneyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 077284511B1D0B1E005F0F0E /* AGTMoneyTests.m */; };
+		07BCBFD51B20C59E00394D23 /* AGTBrokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFD41B20C59E00394D23 /* AGTBrokerTests.m */; };
+		07BCBFD81B20C6A200394D23 /* AGTBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFD71B20C6A200394D23 /* AGTBroker.m */; };
+		07BCBFD91B20C6CB00394D23 /* AGTBroker.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFD71B20C6A200394D23 /* AGTBroker.m */; };
+		07BCBFDB1B20DA7B00394D23 /* AGTWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFDA1B20DA7B00394D23 /* AGTWalletTests.m */; };
+		07BCBFDE1B20DC6800394D23 /* AGTWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFDD1B20DC6800394D23 /* AGTWallet.m */; };
+		07BCBFDF1B20DD8800394D23 /* AGTWallet.m in Sources */ = {isa = PBXBuildFile; fileRef = 07BCBFDD1B20DC6800394D23 /* AGTWallet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		077284281B1CF398005F0F0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 077284061B1CF398005F0F0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0772840D1B1CF398005F0F0E;
+			remoteInfo = Wallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073589B91B221A3A00A37878 /* AGTSimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTSimpleViewController.h; sourceTree = "<group>"; };
+		073589BA1B221A3A00A37878 /* AGTSimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTSimpleViewController.m; sourceTree = "<group>"; };
+		073589BB1B221A3A00A37878 /* AGTSimpleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGTSimpleViewController.xib; sourceTree = "<group>"; };
+		073589C21B221A7900A37878 /* AGTControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTControllerTests.m; sourceTree = "<group>"; };
+		073589C41B22200C00A37878 /* AGTWalletTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWalletTableViewController.h; sourceTree = "<group>"; };
+		073589C51B22200C00A37878 /* AGTWalletTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWalletTableViewController.m; sourceTree = "<group>"; };
+		0772840E1B1CF398005F0F0E /* Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		077284121B1CF398005F0F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077284131B1CF398005F0F0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		077284151B1CF398005F0F0E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		077284161B1CF398005F0F0E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		077284181B1CF398005F0F0E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		077284191B1CF398005F0F0E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0772841C1B1CF398005F0F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0772841E1B1CF398005F0F0E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		077284211B1CF398005F0F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		077284271B1CF398005F0F0E /* WalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0772842C1B1CF398005F0F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		077284491B1D0699005F0F0E /* AGTMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTMoney.h; sourceTree = "<group>"; };
+		0772844A1B1D0699005F0F0E /* AGTMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTMoney.m; sourceTree = "<group>"; };
+		0772844D1B1D096B005F0F0E /* NSObject+GNUStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+GNUStep.h"; sourceTree = "<group>"; };
+		0772844E1B1D096B005F0F0E /* NSObject+GNUStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+GNUStep.m"; sourceTree = "<group>"; };
+		077284511B1D0B1E005F0F0E /* AGTMoneyTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTMoneyTests.m; sourceTree = "<group>"; };
+		07BCBFD41B20C59E00394D23 /* AGTBrokerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTBrokerTests.m; sourceTree = "<group>"; };
+		07BCBFD61B20C6A200394D23 /* AGTBroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTBroker.h; sourceTree = "<group>"; };
+		07BCBFD71B20C6A200394D23 /* AGTBroker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTBroker.m; sourceTree = "<group>"; };
+		07BCBFDA1B20DA7B00394D23 /* AGTWalletTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWalletTests.m; sourceTree = "<group>"; };
+		07BCBFDC1B20DC6800394D23 /* AGTWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGTWallet.h; sourceTree = "<group>"; };
+		07BCBFDD1B20DC6800394D23 /* AGTWallet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGTWallet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0772840B1B1CF398005F0F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077284241B1CF398005F0F0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		073589B81B221A1300A37878 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				073589B91B221A3A00A37878 /* AGTSimpleViewController.h */,
+				073589BA1B221A3A00A37878 /* AGTSimpleViewController.m */,
+				073589BB1B221A3A00A37878 /* AGTSimpleViewController.xib */,
+				073589C41B22200C00A37878 /* AGTWalletTableViewController.h */,
+				073589C51B22200C00A37878 /* AGTWalletTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		073589C01B221A5000A37878 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				077284511B1D0B1E005F0F0E /* AGTMoneyTests.m */,
+				07BCBFD41B20C59E00394D23 /* AGTBrokerTests.m */,
+				07BCBFDA1B20DA7B00394D23 /* AGTWalletTests.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		073589C11B221A5800A37878 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				073589C21B221A7900A37878 /* AGTControllerTests.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		077284051B1CF398005F0F0E = {
+			isa = PBXGroup;
+			children = (
+				077284101B1CF398005F0F0E /* Wallet */,
+				0772842A1B1CF398005F0F0E /* WalletTests */,
+				0772840F1B1CF398005F0F0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0772840F1B1CF398005F0F0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0772840E1B1CF398005F0F0E /* Wallet.app */,
+				077284271B1CF398005F0F0E /* WalletTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		077284101B1CF398005F0F0E /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				073589B81B221A1300A37878 /* Controllers */,
+				077284391B1CF659005F0F0E /* Models */,
+				077284151B1CF398005F0F0E /* AppDelegate.h */,
+				077284161B1CF398005F0F0E /* AppDelegate.m */,
+				077284181B1CF398005F0F0E /* ViewController.h */,
+				077284191B1CF398005F0F0E /* ViewController.m */,
+				0772841B1B1CF398005F0F0E /* Main.storyboard */,
+				0772841E1B1CF398005F0F0E /* Images.xcassets */,
+				077284201B1CF398005F0F0E /* LaunchScreen.xib */,
+				077284111B1CF398005F0F0E /* Supporting Files */,
+				077284501B1D098D005F0F0E /* Category */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		077284111B1CF398005F0F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				077284121B1CF398005F0F0E /* Info.plist */,
+				077284131B1CF398005F0F0E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0772842A1B1CF398005F0F0E /* WalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				073589C11B221A5800A37878 /* Controllers */,
+				0772842B1B1CF398005F0F0E /* Supporting Files */,
+				073589C01B221A5000A37878 /* Models */,
+			);
+			path = WalletTests;
+			sourceTree = "<group>";
+		};
+		0772842B1B1CF398005F0F0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0772842C1B1CF398005F0F0E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		077284391B1CF659005F0F0E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				077284491B1D0699005F0F0E /* AGTMoney.h */,
+				0772844A1B1D0699005F0F0E /* AGTMoney.m */,
+				07BCBFD61B20C6A200394D23 /* AGTBroker.h */,
+				07BCBFD71B20C6A200394D23 /* AGTBroker.m */,
+				07BCBFDC1B20DC6800394D23 /* AGTWallet.h */,
+				07BCBFDD1B20DC6800394D23 /* AGTWallet.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		077284501B1D098D005F0F0E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0772844D1B1D096B005F0F0E /* NSObject+GNUStep.h */,
+				0772844E1B1D096B005F0F0E /* NSObject+GNUStep.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0772840D1B1CF398005F0F0E /* Wallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077284311B1CF398005F0F0E /* Build configuration list for PBXNativeTarget "Wallet" */;
+			buildPhases = (
+				0772840A1B1CF398005F0F0E /* Sources */,
+				0772840B1B1CF398005F0F0E /* Frameworks */,
+				0772840C1B1CF398005F0F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wallet;
+			productName = Wallet;
+			productReference = 0772840E1B1CF398005F0F0E /* Wallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		077284261B1CF398005F0F0E /* WalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077284341B1CF398005F0F0E /* Build configuration list for PBXNativeTarget "WalletTests" */;
+			buildPhases = (
+				077284231B1CF398005F0F0E /* Sources */,
+				077284241B1CF398005F0F0E /* Frameworks */,
+				077284251B1CF398005F0F0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				077284291B1CF398005F0F0E /* PBXTargetDependency */,
+			);
+			name = WalletTests;
+			productName = WalletTests;
+			productReference = 077284271B1CF398005F0F0E /* WalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		077284061B1CF398005F0F0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = cinnika;
+				TargetAttributes = {
+					0772840D1B1CF398005F0F0E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					077284261B1CF398005F0F0E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 0772840D1B1CF398005F0F0E;
+					};
+				};
+			};
+			buildConfigurationList = 077284091B1CF398005F0F0E /* Build configuration list for PBXProject "Wallet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 077284051B1CF398005F0F0E;
+			productRefGroup = 0772840F1B1CF398005F0F0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0772840D1B1CF398005F0F0E /* Wallet */,
+				077284261B1CF398005F0F0E /* WalletTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0772840C1B1CF398005F0F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0772841D1B1CF398005F0F0E /* Main.storyboard in Resources */,
+				073589BE1B221A3A00A37878 /* AGTSimpleViewController.xib in Resources */,
+				077284221B1CF398005F0F0E /* LaunchScreen.xib in Resources */,
+				0772841F1B1CF398005F0F0E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077284251B1CF398005F0F0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073589BF1B221A3A00A37878 /* AGTSimpleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0772840A1B1CF398005F0F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BCBFDE1B20DC6800394D23 /* AGTWallet.m in Sources */,
+				073589BC1B221A3A00A37878 /* AGTSimpleViewController.m in Sources */,
+				0772844F1B1D096B005F0F0E /* NSObject+GNUStep.m in Sources */,
+				0772841A1B1CF398005F0F0E /* ViewController.m in Sources */,
+				077284171B1CF398005F0F0E /* AppDelegate.m in Sources */,
+				0772844B1B1D0699005F0F0E /* AGTMoney.m in Sources */,
+				077284141B1CF398005F0F0E /* main.m in Sources */,
+				073589C61B22200C00A37878 /* AGTWalletTableViewController.m in Sources */,
+				07BCBFD81B20C6A200394D23 /* AGTBroker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		077284231B1CF398005F0F0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07BCBFD51B20C59E00394D23 /* AGTBrokerTests.m in Sources */,
+				07BCBFDB1B20DA7B00394D23 /* AGTWalletTests.m in Sources */,
+				073589C31B221A7900A37878 /* AGTControllerTests.m in Sources */,
+				0772844C1B1D06DB005F0F0E /* AGTMoney.m in Sources */,
+				07BCBFDF1B20DD8800394D23 /* AGTWallet.m in Sources */,
+				077284521B1D0B1E005F0F0E /* AGTMoneyTests.m in Sources */,
+				07BCBFD91B20C6CB00394D23 /* AGTBroker.m in Sources */,
+				073589C71B22200C00A37878 /* AGTWalletTableViewController.m in Sources */,
+				073589BD1B221A3A00A37878 /* AGTSimpleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		077284291B1CF398005F0F0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0772840D1B1CF398005F0F0E /* Wallet */;
+			targetProxy = 077284281B1CF398005F0F0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0772841B1B1CF398005F0F0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0772841C1B1CF398005F0F0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		077284201B1CF398005F0F0E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				077284211B1CF398005F0F0E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0772842F1B1CF398005F0F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		077284301B1CF398005F0F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		077284321B1CF398005F0F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		077284331B1CF398005F0F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Wallet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		077284351B1CF398005F0F0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
+			};
+			name = Debug;
+		};
+		077284361B1CF398005F0F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wallet.app/Wallet";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077284091B1CF398005F0F0E /* Build configuration list for PBXProject "Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0772842F1B1CF398005F0F0E /* Debug */,
+				077284301B1CF398005F0F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077284311B1CF398005F0F0E /* Build configuration list for PBXNativeTarget "Wallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077284321B1CF398005F0F0E /* Debug */,
+				077284331B1CF398005F0F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		077284341B1CF398005F0F0E /* Build configuration list for PBXNativeTarget "WalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				077284351B1CF398005F0F0E /* Debug */,
+				077284361B1CF398005F0F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 077284061B1CF398005F0F0E /* Project object */;
+}
